@@ -1,0 +1,32 @@
+body {
+	background: #78A4D1;
+	background: -moz-linear-gradient(50deg, #a3d0ed 0%, #679ace 100%);
+	background: -webkit-linear-gradient(50deg, #a3d0ed 0%, #679ace 100%);
+	background: linear-gradient(50deg, #a3d0ed 0%, #679ace 100%);
+}
+
+canvas {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	pointer-events: none;
+	top:0;
+}
+
+h1 {
+	top: 15%;
+	font-size: 10em;
+	font-family: 'Dotum', 'Arial';
+	font-weight: 300;
+	color: #AEAEAE;
+	width: 100%;
+	text-align: center;
+    text-shadow: 0 6px 10px #3D566F;
+    cursor: pointer;
+    position: absolute;
+	opacity: 1;
+    -webkit-transition: opacity 8000ms ease-out;
+    transition: opacity 8000ms ease-out;
+}
