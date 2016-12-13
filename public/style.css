@@ -1,8 +1,8 @@
 body {
 	background: #78A4D1;
-	background: -moz-linear-gradient(50deg, #a3d0ed 0%, #679ace 100%);
-	background: -webkit-linear-gradient(50deg, #a3d0ed 0%, #679ace 100%);
-	background: linear-gradient(50deg, #a3d0ed 0%, #679ace 100%);
+	background: -moz-linear-gradient(50deg, #638DB2 0%, #28496C 100%);
+	background: -webkit-linear-gradient(50deg, #638DB2 0%, #28496C 100%);
+	background: linear-gradient(50deg, #638DB2 0%, #28496C 100%);
 }
 
 canvas {
