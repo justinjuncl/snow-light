@@ -3,15 +3,15 @@ window.onload = function () {
 var track = new Audio('track.mp3');
 track.type= 'audio/mpeg';
 
-document.getElementById("button").onclick =  function ( e ) {
+document.getElementById("button").onclick = function ( e ) {
 
 	console.log('play')
 
 	setInterval(draw, 33);
 
-	setTimeout( function () {
+	// setTimeout( function () {
 		track.play();
-	}, 3000);
+	// }, 3000);
 
 	e.target.style.opacity = 0;
 
